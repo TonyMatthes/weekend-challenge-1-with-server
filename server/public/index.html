@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Salary Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="frame">
+        <h1>Salary Calculator</h1>
+        <h2>Add Employee:</h2>
+        <div class="container" id="block-inputForm">
+            <input id="firstName" placeholder="First Name" type="text">
+            <input id="lastName" placeholder="Last Name" type="text">
+            <input id="identificationNumber" placeholder="ID Number" type="number">
+            <input id="title" placeholder="Title" type="text">
+            <input id="annualSalary" placeholder="Annual Salary" type="number">
+            <button id="submitButton">Submit</button>
+            <button id="undoButton" disabled>Undo Deletion</button>
+        </div>
+        <h2>Employees:</h2>
+        <div class="container" id="block-outputTable">
+            <table id="outputTable">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Annual Salary</th>
+                        <th>Remove Employee</th>
+                    </tr>
+                </thead>
+                <tbody class="outputDisplay">
+
+                </tbody>
+            </table>
+        </div>
+        <div class="container" id="totalMonthly">
+            <h2>Total Monthly: $</h2>
+        </div>
+    </div>
+</body>
+
+</html>

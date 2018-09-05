@@ -1,0 +1,66 @@
+body{
+    font-family: Georgia;
+    background-image: url(85198154-seamless-money-pattern-with-many-euro-and-dollar-currency-signs-on-white-background-paper-banknotes-.jpg);
+}
+
+.container{
+    width: 100%;
+    margin:20px;
+    border: 1px, solid, black;
+}
+
+#frame{
+    background-color:rgba(0, 173, 176, 0.815);
+    width: 80%;
+    margin: 40px auto 80px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 15px;
+}
+
+#block-inputForm{
+    width:40%;
+    padding:10px;
+    border-radius:15px;
+    background: linear-gradient(rgba(34,34,34,0.75) 0%,#222222 50px);
+
+}
+
+input{
+    padding:9px;
+    margin:2px
+}
+
+button{
+    padding:8px;
+    border-radius: 3px
+}
+
+#outputTable {
+  border: 2px solid #4F7849;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+#outputTable td, outputTable th {
+  border: 1px solid #4F7849;
+  padding: 3px 2px;
+}
+#outputTable tbody td {
+  font-size: 19px;
+  font-weight: bold;
+  color: #4F7849;
+}
+#outputTable tr:nth-child(even) {
+  background: #CEE0CC;
+}
+#outputTable tfoot {
+  font-size: 21px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #4F7849;
+  background: -moz-linear-gradient(top, #7b9a76 0%, #60855b 66%, #4F7849 100%);
+  background: -webkit-linear-gradient(top, #7b9a76 0%, #60855b 66%, #4F7849 100%);
+  background: linear-gradient(to bottom, #7b9a76 0%, #60855b 66%, #4F7849 100%);
+  border-top: 1px solid #444444;
+}
